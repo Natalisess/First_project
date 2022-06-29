@@ -1,9 +1,9 @@
 from random import *
 
-Random = random.choice(["A","B","C"])
+Random = choice(["A","B","C"])
 
 while True :
-    RanDom = int(input("Any alphabet [ A B C ]: "))
+    RanDom = input("Any alphabet [ A B C ]: ")
     try :
         if Random == RanDom :
             print("Correct")
